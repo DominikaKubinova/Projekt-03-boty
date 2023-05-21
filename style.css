@@ -25,6 +25,9 @@ body {
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
+    font-size: 14px;
+    margin:150px 150px;
+    background-color: #f5f5f5;
 }
 
 
@@ -32,3 +35,132 @@ h1 {
     font-weight: 500;
 }
 
+.zbozi {
+    display: flex;
+    box-shadow: 1px 1px 8px #959595;
+    border-radius: 10px;
+    width: 670px;
+    height: 440px;
+}
+
+.vizual {
+    flex-direction: column;
+    display: flex;
+    background:linear-gradient(to bottom,#06d7c1,#50cc49);
+    flex-basis:50%;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+
+.logo {
+    display:flex;
+    padding: 30px;
+}
+
+.slogan {
+    display: flex;
+    padding: 0 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.bota {
+    position: absolute;
+    top: 130px;
+    left: -85px;
+}
+
+.cenovka {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+    color: white;
+    margin: 200px 0 0 0;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.detaily {
+    display: flex;
+    flex-direction: column;
+    flex-basis:50%;
+}
+
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px 30px 10px 30px;
+    margin: 0;
+}
+
+.produkt {
+    padding: 0 0 0 30px;
+    margin: 0;
+    color: #959595;
+}
+
+.popis {
+    padding: 30px;
+    margin:0;
+}
+
+.parametr {
+    padding: 30px 0 10px 0;
+    margin:0 30px 0 30px;
+    font-size: 15px;
+    font-weight: 500;
+    border-top: 1px solid #06d7c1;
+}
+
+.velikosti {
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+.velikosti li {
+    display: inline-block;
+    margin:4px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.vybrana {
+    border: 1px solid #f15f42;
+    color: #f15f42;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+.velikosti :hover {
+    border: 1px solid #f15f42;
+    color: #f15f42;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+.akce {
+    display: flex;
+    margin: 50px 30px 30px 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.akce a {
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #f15f42;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px #959595;
+}
